@@ -19,7 +19,7 @@ from pytgcalls.types.stream import StreamAudioEnded
 import config
 from RadhaXmusiC import LOGGER, YouTube, app
 from RadhaXmusiC.misc import db
-from RadhaXmusiC.utils.database import (
+from RadhaXmusiC.utils.database import Radha
     add_active_chat,
     add_active_video_chat,
     get_lang,
