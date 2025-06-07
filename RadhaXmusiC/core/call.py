@@ -47,6 +47,7 @@ from strings import get_string
 autoend = {}
 counter = {}
 
+
 class Call:
     def __init__(self):
         self.client = PyTgCalls(app, cache_duration=100, overload_qualify=True)
