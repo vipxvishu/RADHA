@@ -7,7 +7,7 @@ from pyrogram import Client
 from pyrogram.types import InlineKeyboardMarkup
 from pytgcalls import PyTgCalls, StreamType
 from pytgcalls.exceptions import Radha
-    AlreadyJoinedError,
+    from pyrogram.errors import AlreadyJoinedError,
     NoActiveGroupCall,
     TelegramServerError,
 )
